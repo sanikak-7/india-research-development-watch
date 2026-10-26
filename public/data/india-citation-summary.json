@@ -1,0 +1,280 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-20T19:42:56.445Z",
+  "source": "OpenAlex Works API",
+  "period": {
+    "start_year": 2018,
+    "end_year": 2025
+  },
+  "filters": {
+    "country_definition": "At least one authorship institution has country_code IN",
+    "work_types": [
+      "article",
+      "review",
+      "conference-paper"
+    ],
+    "excludes_retracted": true,
+    "field_assignment": "OpenAlex primary topic field; one field per classified work"
+  },
+  "notes": [
+    "Citation counts are a point-in-time snapshot and will change as OpenAlex updates.",
+    "Top-10% counts use OpenAlex citation_normalized_percentile.is_in_top_10_percent.",
+    "Field citation shares use classified works only; works without a primary field are excluded from that denominator."
+  ],
+  "annual": [
+    {
+      "year": 2018,
+      "publication_count": 191289,
+      "total_citations": 3456526,
+      "mean_citations_per_paper": 18.0697,
+      "top_10_percent_count": 22799,
+      "top_10_percent_share": 0.119186
+    },
+    {
+      "year": 2019,
+      "publication_count": 194791,
+      "total_citations": 3582084,
+      "mean_citations_per_paper": 18.3894,
+      "top_10_percent_count": 25026,
+      "top_10_percent_share": 0.128476
+    },
+    {
+      "year": 2020,
+      "publication_count": 240675,
+      "total_citations": 4367891,
+      "mean_citations_per_paper": 18.1485,
+      "top_10_percent_count": 32215,
+      "top_10_percent_share": 0.133853
+    },
+    {
+      "year": 2021,
+      "publication_count": 267158,
+      "total_citations": 4036913,
+      "mean_citations_per_paper": 15.1106,
+      "top_10_percent_count": 35258,
+      "top_10_percent_share": 0.131974
+    },
+    {
+      "year": 2022,
+      "publication_count": 289568,
+      "total_citations": 3425977,
+      "mean_citations_per_paper": 11.8313,
+      "top_10_percent_count": 36859,
+      "top_10_percent_share": 0.12729
+    },
+    {
+      "year": 2023,
+      "publication_count": 325516,
+      "total_citations": 2823284,
+      "mean_citations_per_paper": 8.6733,
+      "top_10_percent_count": 42455,
+      "top_10_percent_share": 0.130424
+    },
+    {
+      "year": 2024,
+      "publication_count": 382911,
+      "total_citations": 2085054,
+      "mean_citations_per_paper": 5.4453,
+      "top_10_percent_count": 48612,
+      "top_10_percent_share": 0.126954
+    },
+    {
+      "year": 2025,
+      "publication_count": 427930,
+      "total_citations": 944874,
+      "mean_citations_per_paper": 2.208,
+      "top_10_percent_count": 50526,
+      "top_10_percent_share": 0.118071
+    }
+  ],
+  "fields": [
+    {
+      "field_id": "https://openalex.org/fields/22",
+      "field_name": "Engineering",
+      "publication_count": 428710,
+      "total_citations": 5012121,
+      "citation_share": 0.202738
+    },
+    {
+      "field_id": "https://openalex.org/fields/27",
+      "field_name": "Medicine",
+      "publication_count": 459245,
+      "total_citations": 3360627,
+      "citation_share": 0.135936
+    },
+    {
+      "field_id": "https://openalex.org/fields/25",
+      "field_name": "Materials Science",
+      "publication_count": 132162,
+      "total_citations": 2609252,
+      "citation_share": 0.105543
+    },
+    {
+      "field_id": "https://openalex.org/fields/17",
+      "field_name": "Computer Science",
+      "publication_count": 266011,
+      "total_citations": 2452267,
+      "citation_share": 0.099193
+    },
+    {
+      "field_id": "https://openalex.org/fields/23",
+      "field_name": "Environmental Science",
+      "publication_count": 100649,
+      "total_citations": 1889309,
+      "citation_share": 0.076422
+    },
+    {
+      "field_id": "https://openalex.org/fields/11",
+      "field_name": "Agricultural and Biological Sciences",
+      "publication_count": 191764,
+      "total_citations": 1754523,
+      "citation_share": 0.07097
+    },
+    {
+      "field_id": "https://openalex.org/fields/13",
+      "field_name": "Biochemistry, Genetics and Molecular Biology",
+      "publication_count": 95218,
+      "total_citations": 1253764,
+      "citation_share": 0.050714
+    },
+    {
+      "field_id": "https://openalex.org/fields/21",
+      "field_name": "Energy",
+      "publication_count": 39542,
+      "total_citations": 901765,
+      "citation_share": 0.036476
+    },
+    {
+      "field_id": "https://openalex.org/fields/16",
+      "field_name": "Chemistry",
+      "publication_count": 64037,
+      "total_citations": 882104,
+      "citation_share": 0.035681
+    },
+    {
+      "field_id": "https://openalex.org/fields/31",
+      "field_name": "Physics and Astronomy",
+      "publication_count": 64058,
+      "total_citations": 806927,
+      "citation_share": 0.03264
+    },
+    {
+      "field_id": "https://openalex.org/fields/14",
+      "field_name": "Business, Management and Accounting",
+      "publication_count": 55460,
+      "total_citations": 539957,
+      "citation_share": 0.021841
+    },
+    {
+      "field_id": "https://openalex.org/fields/33",
+      "field_name": "Social Sciences",
+      "publication_count": 85638,
+      "total_citations": 478515,
+      "citation_share": 0.019356
+    },
+    {
+      "field_id": "https://openalex.org/fields/18",
+      "field_name": "Decision Sciences",
+      "publication_count": 27910,
+      "total_citations": 346960,
+      "citation_share": 0.014034
+    },
+    {
+      "field_id": "https://openalex.org/fields/19",
+      "field_name": "Earth and Planetary Sciences",
+      "publication_count": 23322,
+      "total_citations": 286208,
+      "citation_share": 0.011577
+    },
+    {
+      "field_id": "https://openalex.org/fields/32",
+      "field_name": "Psychology",
+      "publication_count": 37166,
+      "total_citations": 271711,
+      "citation_share": 0.010991
+    },
+    {
+      "field_id": "https://openalex.org/fields/36",
+      "field_name": "Health Professions",
+      "publication_count": 38405,
+      "total_citations": 261228,
+      "citation_share": 0.010567
+    },
+    {
+      "field_id": "https://openalex.org/fields/26",
+      "field_name": "Mathematics",
+      "publication_count": 38155,
+      "total_citations": 246476,
+      "citation_share": 0.00997
+    },
+    {
+      "field_id": "https://openalex.org/fields/30",
+      "field_name": "Pharmacology, Toxicology and Pharmaceutics",
+      "publication_count": 19394,
+      "total_citations": 237279,
+      "citation_share": 0.009598
+    },
+    {
+      "field_id": "https://openalex.org/fields/20",
+      "field_name": "Economics, Econometrics and Finance",
+      "publication_count": 26562,
+      "total_citations": 228232,
+      "citation_share": 0.009232
+    },
+    {
+      "field_id": "https://openalex.org/fields/28",
+      "field_name": "Neuroscience",
+      "publication_count": 21721,
+      "total_citations": 225570,
+      "citation_share": 0.009124
+    },
+    {
+      "field_id": "https://openalex.org/fields/24",
+      "field_name": "Immunology and Microbiology",
+      "publication_count": 16655,
+      "total_citations": 184447,
+      "citation_share": 0.007461
+    },
+    {
+      "field_id": "https://openalex.org/fields/35",
+      "field_name": "Dentistry",
+      "publication_count": 31208,
+      "total_citations": 163882,
+      "citation_share": 0.006629
+    },
+    {
+      "field_id": "https://openalex.org/fields/15",
+      "field_name": "Chemical Engineering",
+      "publication_count": 9394,
+      "total_citations": 149906,
+      "citation_share": 0.006064
+    },
+    {
+      "field_id": "https://openalex.org/fields/29",
+      "field_name": "Nursing",
+      "publication_count": 10567,
+      "total_citations": 120246,
+      "citation_share": 0.004864
+    },
+    {
+      "field_id": "https://openalex.org/fields/12",
+      "field_name": "Arts and Humanities",
+      "publication_count": 32176,
+      "total_citations": 47194,
+      "citation_share": 0.001909
+    },
+    {
+      "field_id": "https://openalex.org/fields/34",
+      "field_name": "Veterinary",
+      "publication_count": 3248,
+      "total_citations": 11736,
+      "citation_share": 0.000475
+    }
+  ],
+  "validation": {
+    "annual_publication_total": 2319838,
+    "annual_citation_total": 24722603,
+    "classified_field_publication_total": 2318377,
+    "classified_field_citation_total": 24722206
+  }
+}

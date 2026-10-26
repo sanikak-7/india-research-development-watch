@@ -9,6 +9,7 @@
     "lint": "next lint",
     "data:openalex": "node scripts/openalex-india-research-output.mjs",
     "data:openalex:refresh": "node scripts/openalex-india-research-output.mjs --refresh",
+    "data:openalex:citations": "node scripts/openalex-fast-citation-summary.mjs",
     "test:data": "node --test test/openalex-india-research-output.test.mjs"
   },
   "dependencies": { "next": "14.2.5", "react": "18.3.1", "react-dom": "18.3.1", "lucide-react": "^0.441.0" },
